@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&family=Poor+Story&display=swap');
+
+.header {
+  font-family: "Poor Story";
+  font-size: 17px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #8fc7ff;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 25px;
+  margin-right: 8px;
+}
+
+.nav-link:hover {
+  color: #f0f0f0;
+}
